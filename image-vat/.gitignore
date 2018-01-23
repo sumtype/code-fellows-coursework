@@ -1,0 +1,5 @@
+**/build/**
+**/db/**
+**/node_modules/**
+**/*.log/**
+testBundle.js

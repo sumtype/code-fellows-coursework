@@ -1,0 +1,33 @@
+{
+  "name": "image-vat-server",
+  "version": "1.0.0",
+  "description": "A one resource REST API with Express and MongoDB with full CRUD implementation.  To be used in conjunction with image-vat-client.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumtype/image-vat.git"
+  },
+  "author": "James Mason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumtype/image-vat/issues"
+  },
+  "homepage": "https://github.com/sumtype/image-vat#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.3.6"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.3.4"
+  }
+}

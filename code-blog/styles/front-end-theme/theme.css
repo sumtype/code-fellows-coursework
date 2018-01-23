@@ -1,0 +1,135 @@
+/* Theme Specific Styling */
+@font-face {
+  font-family: 'Tron';
+  src: url("fonts/tr2n-webfont.woff") format("woff"),
+    url("fonts/tr2n-webfont.svg#tr2ntr2n") format("svg");
+}
+/* Base Styling */
+  * {
+    font-family: 'Helvetica',sans-serif;
+    font-size: 1em;
+  }
+  h1 {
+    font-family: 'Tron','Helvetica',sans-serif;
+    font-size: 1.602em; !important;
+  }
+  h2 {
+    font-family: 'Tron','Helvetica',sans-serif;
+    font-size: 1.424em; !important;
+  }
+  h3 {
+    font-family: 'Tron','Helvetica',sans-serif;
+    font-size: 1.266em; !important;
+  }
+  h4 {
+    font-family: 'Tron','Helvetica',sans-serif;
+    font-size: 1.125em; !important;
+  }
+  h5 {
+    font-family: 'Tron','Helvetica',sans-serif;
+    font-size: 1em; !important;
+  }
+  html {
+    background-color: #fff;
+  }
+  header {
+    background-color: #fff;
+  }
+  body {
+  	line-height: 18px;
+  }
+  img {
+  	border: solid black 1px;
+  	box-shadow: 3px 3px 3px #000000;
+  	-moz-box-shadow: 3px 3px 3px #000000;
+  	-webkit-box-shadow: 3px 3px 3px #000000;
+  }
+  article {
+  	background-color: #fff;
+  	color: #000;
+  }
+  footer {
+  	color: #A9A9A9;
+  }
+  a {
+  	color: #000;
+  }
+  a:hover {
+    color: #A9A9A9;
+  }
+/* Layout Styling */
+  /* Site Title */
+  #site-title {
+  	font-weight: bold;
+  	color: #000;
+  }
+  #site-title a {
+  	color: #000;
+  }
+  #site-title a:hover {
+  	color: #A9A9A9;
+  }
+  /* Icons */
+  .icon {
+  	box-shadow: 0px 0px 0px #000;
+  	-moz-box-shadow: 0px 0px 0px #000;
+  	-webkit-box-shadow: 0px 0px 0px #000;
+  	background-color: #fff;
+  	border: 0px solid black;
+  }
+  /* Navigation Menus */
+    /* Mobile Menu */
+    .hamburger-menu {
+    	background-color: #fff;
+    	font-size: 18px;
+    	box-shadow: 0px 0px 0px #000;
+    	-moz-box-shadow: 0px 0px 0px #000;
+    	-webkit-box-shadow: 0px 0px 0px #000;
+    	border: solid 1px white;
+    }
+    .hamburger-menu:hover {
+    	background-color: #A9A9A9;
+    }
+    #mobile-menu .site-menu {
+    	background-color: #fff;
+    	border: solid 1px #AAA;
+    }
+    #mobile-menu .nav-link-item a {
+    	color: #000;
+    }
+    #mobile-menu .nav-link-item a:hover {
+    	color: #A9A9A9;
+    }
+    /* Desktop Menu */
+    #desktop-menu nav div ul li a {
+    	color: #000;
+    }
+    #desktop-menu nav div ul li a:hover {
+    	color: #A9A9A9;
+    }
+/* Module Styling */
+  /* Articles Template */
+  .article-title {
+  	font-size: 18px;
+  	color: #000;
+  }
+  .article-meta-information {
+  	line-height: 16px;
+  	font-size: 10px;
+  }
+  /* Basic Page Template */
+  .basic-title {
+  	font-size: 18px;
+  }
+  /* Github About Page Template */
+  .github-about-title {
+    font-size: 18px;
+  }
+  /* Reference Page Template */
+  .reference-title {
+  	font-size: 18px;
+  }
+  /* Social Icons */
+  #mobile-menu .octocat {
+  	background-color: #fff;
+  }

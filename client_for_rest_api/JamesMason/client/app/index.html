@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="An application to determine the tendency of the Force.">
+		<meta name="author" content="James Mason">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Force Balance</title>
+		<link rel="stylesheet" href="css/style.css" media="all" type="text/css" title="Client Application Stylesheet">
+	</head>
+	<body data-ng-app="forceApp">
+	  <main data-ng-controller="JediController">
+			<header>
+				<h1>Force Balance</h1>
+			</header>
+			<section class="left-column">
+				<h3>$ jedi</h3>
+				<ul>
+					<display-jedi data-ng-repeat="jedi in lightJedi" data-jedi-data="jedi">
+		        <jedi-form data-save="updateLightJedi(jedi)" data-button-text="update" data-new-jedi="jedi">
+							<button data-ng-click="deleteLightJedi(jedi)">delete</button>
+						</jedi-form>
+		      </display-jedi>
+		    </ul>
+			</section>
+			<section class="center-column">
+				<section class="creation-form">
+					<h3>create light jedi</h3>
+			    <jedi-form data-save="createLightJedi(newLightJedi)" data-button-text="create" data-new-jedi="newLightJedi"></jedi-form>
+				</section>
+				<section class="creation-form">
+					<h3>create dark jedi</h3>
+					<jedi-form data-save="createDarkJedi(newDarkJedi)" data-button-text="create" data-new-jedi="newDarkJedi"></jedi-form>
+				</section>
+			</section>
+			<section class="right-column">
+				<h3>jedi #</h3>
+				<ul>
+					<display-jedi data-ng-repeat="jedi in darkJedi" data-jedi-data="jedi">
+						<jedi-form data-save="updateDarkJedi(jedi)" data-button-text="update" data-new-jedi="jedi">
+							<button data-ng-click="deleteDarkJedi(jedi)">delete</button>
+						</jedi-form>
+		      </display-jedi>
+		    </ul>
+			</section>
+			<footer>
+				may the force be with you
+			</footer>
+	  </main>
+		<script src="js/bundle.min.js" type="text/javascript" title="Webpack Javascript Bundle"></script>
+	</body>
+</html>

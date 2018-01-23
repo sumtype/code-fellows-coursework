@@ -1,0 +1,32 @@
+{
+  "name": "rest_api_two_resources",
+  "version": "0.0.0",
+  "description": "A basic REST API with Express and MongoDB that has three resources, two with full CRUD implementation.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumtype/rest_api.git"
+  },
+  "author": "James Mason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumtype/rest_api/issues"
+  },
+  "homepage": "https://github.com/sumtype/rest_api#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.3.6"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.3.4"
+  }
+}

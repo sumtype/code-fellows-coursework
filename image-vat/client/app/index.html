@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="An image gallery with Masonry grids and lightboxes . Built using MongoDB, Express, AngularJS, and Node.js in client and server components.">
+		<meta name="author" content="James Mason">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Image Vat</title>
+		<link rel="stylesheet" href="css/style.css" media="all" type="text/css" title="Client Application Stylesheet">
+	</head>
+	<body data-ng-app="imageVatApp" class="imageVatApplication">
+	  <main data-ng-controller="imageVatController" data-ng-init="getImageVat()">
+			<header>
+				<h1>Image Vat</h1>
+				<h4>An image gallery built with Express, AngularJS, Node.js, jQuery, lightbox2, and masonry-layout.</h4>
+			</header>
+			<section>
+			  <image-creation-form data-create="createImage(newImage)" data-new-image="newImage"></image-creation-form>
+			</section>
+			<section class="vatDisplay grid">
+				<div data-ng-repeat="image in images" class="grid-item">
+					<image-display data-image-data="image"></image-display>
+				</div>
+			</section>
+	  </main>
+		<script src="js/bundle.min.js" type="text/javascript" title="Webpack Javascript Bundle"></script>
+	</body>
+</html>

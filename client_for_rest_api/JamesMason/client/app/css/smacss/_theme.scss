@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'StarWars';
+    src: url('/css/fonts/starjedi-webfont.eot');
+    src: url('/css/fonts/starjedi-webfont.eot?#iefix') format('embedded-opentype'),
+      url('/css/fonts/starjedi-webfont.woff2') format('woff2'),
+      url('/css/fonts/starjedi-webfont.woff') format('woff'),
+      url('/css/fonts/starjedi-webfont.ttf') format('truetype'),
+      url('/css/fonts/starjedi-webfont.svg#star_jediregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: 'StarWars', sans-serif;
+  background-color: black;
+}
+button {
+  background-color: white;
+  color: black;
+  border: solid black 0px;
+}
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+header, footer {
+  color: white;
+}

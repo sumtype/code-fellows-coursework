@@ -1,0 +1,11 @@
+<form data-ng-submit="save(newJedi)">
+  <input type="text" name="name" data-ng-model="newJedi.name" placeholder="Name" required>
+  <input type="text" name="health" data-ng-model="newJedi.health" placeholder="Health">
+  <input type="text" name="damageMin" data-ng-model="newJedi.damage.min" placeholder="Min Damage">
+  <input type="text" name="damageMin" data-ng-model="newJedi.damage.max" placeholder="Max Damage">
+  <input type="text" name="damageMin" data-ng-model="newJedi.accuracy" placeholder="Accuracy">
+  <section>
+    <button type="submit">{{buttonText}}</button>
+    <ng-transclude></ng-transclude>
+  </section>
+</form>

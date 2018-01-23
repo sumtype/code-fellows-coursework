@@ -1,0 +1,64 @@
+{
+  "name": "image-vat-client",
+  "version": "1.0.0",
+  "description": "The image gallery with Masonry grids and lightboxes, built using MongoDB, Express, AngularJS, and Node.js.  To be used in conjunction with the image-vat-server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "node server"
+  },
+  "keywords": [
+    "image",
+    "gallery",
+    "image gallery",
+    "angular",
+    "angular image gallery",
+    "angular image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumtype/image-vat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumtype/image-vat/issues"
+  },
+  "homepage": "https://github.com/sumtype/image-vat#readme",
+  "author": "James Mason",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "autoprefixer": "^6.3.3",
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.4",
+    "colorguard": "^1.0.1",
+    "css-mqpacker": "^4.0.0",
+    "cssnext": "^1.8.4",
+    "csswring": "^4.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "html-loader": "^0.4.3",
+    "jasmine-core": "^2.4.1",
+    "jquery": "^2.2.1",
+    "karma": "^0.13.19",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.7",
+    "lightbox2": "^2.8.2",
+    "masonry-layout": "^4.0.0",
+    "postcss-font-family": "^2.0.0",
+    "postcss-font-magician": "^1.4.0",
+    "webpack": "^1.12.13",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
