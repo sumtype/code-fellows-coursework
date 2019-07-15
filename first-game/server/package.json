@@ -4,7 +4,9 @@
   "description": "Game hub and Spacecataz server.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,8 @@
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "jsonwebtoken": "^5.7.0",
-    "mongoose": "^4.4.6"
-  }
+    "mongoose": "^4.4.6",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
