@@ -8,3 +8,9 @@ patch:
         patched: '2019-07-04T00:00:27.283Z'
     - express-request-proxy > async > lodash:
         patched: '2019-07-04T00:00:27.283Z'
+  'npm:debug:20170905':
+    - pushstate-server > connect > finalhandler > debug:
+        patched: '2019-07-15T23:59:42.976Z'
+  'npm:ms:20170412':
+    - pushstate-server > connect > finalhandler > debug > ms:
+        patched: '2019-07-15T23:59:42.976Z'
