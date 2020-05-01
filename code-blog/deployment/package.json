@@ -14,7 +14,7 @@
     "express": "^4.13.3",
     "express-request-proxy": "^2.0.0",
     "pushstate-server": "^1.8.1",
-    "snyk": "^1.231.0"
+    "snyk": "^1.316.1"
   },
   "snyk": true
 }
