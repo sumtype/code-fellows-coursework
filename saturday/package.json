@@ -28,7 +28,7 @@
     "gulp-mocha": "2.2.0"
   },
   "dependencies": {
-    "bcrypt": "0.8.5",
+    "bcrypt": "5.0.0",
     "body-parser": "1.14.2",
     "cookie-parser": "1.4.1",
     "express": "4.16.0",
