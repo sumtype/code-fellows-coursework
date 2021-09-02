@@ -27,7 +27,7 @@
     "koa": "^1.1.2",
     "koa-mongoose": "^1.0.9",
     "koa-router": "^5.3.0",
-    "mongoose": "^5.9.7",
+    "mongoose": "^6.0.4",
     "mongoose-q": "^0.1.0",
     "snyk": "^1.231.0"
   },
